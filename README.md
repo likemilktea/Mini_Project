@@ -6,6 +6,7 @@
  * 03 ChatGPT를 활용한 데이터 셋 소개. 그리고 folium를 활용하여 위치 시각화 [코드](code/korea_city.ipynb) / [HTML 결과물](https://likemilktea.github.io/Mini_Project/code/korea_city_location.html)
  * ㄴChatGPT에서 알려준 https://simplemaps.com/data/kr-cities 사이트의 csv를 통해 한국의 210개의 도시를 folium으로 시각화 했다.
  * 04 ChatGPT를 활용하여 넷플릭스 데이터를 분석 [코드](code/Netflix_dataset_analysis.ipynb)
+ * ㄴhttps://www.kaggle.com/datasets/shivamb/netflix-shows 데이터 분석
  * 01 ChatGPT를 활용하여 간단한 홈페이지 만들기 [이동]()
  * 01 ChatGPT를 활용하여 간단한 홈페이지 만들기 [이동]()
  * 01 ChatGPT를 활용하여 간단한 홈페이지 만들기 [이동]()

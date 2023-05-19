@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Baseball Information</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Baseball Information</h1>
+    <table>
+        <tr>
+            <th>Team</th>
+            <th>Ranking</th>
+            <th>Year</th>
+            <th>Plays</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Draws</th>
+            <th>OBP</th>
+            <th>SLG</th>
+            <th>Win Rate</th>
+        </tr>
+        {% for record in records %}
+        <tr>
+            <td>{{ record.name }}</td>
+            <td>{{ record.ranking }}</td>
+            <td>{{ record.year }}</td>
+            <td>{{ record.plays }}</td>
+            <td>{{ record.wins }}</td>
+            <td>{{ record.losses }}</td>
+            <td>{{ record.draws }}</td>
+            <td>{{ record.obp }}</td>
+            <td>{{ record.slg }}</td>
+            <td>{{ record.win_rate }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

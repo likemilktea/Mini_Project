@@ -11,7 +11,7 @@
  5. 웹 크롤링을 통한 KBO정보 스크래핑 및 Flask 웹 페이지 구현 [코드](https://github.com/likemilktea/Mini_Project/blob/main/code/baseball/KBO_history.ipynb)/[HTML](https://likemilktea.github.io/Mini_Project/code/baseball/Baseball_Information.html)
     * DB와 CVS로 저장 기능 구현.
     * selenium
- 6. 한국 방문객 데이터셋 분석[코드](https://github.com/likemilktea/Mini_Project/blob/main/code/visit_korea.ipynb)
+ 6. 한국 방문객 데이터셋 분석 [코드](https://github.com/likemilktea/Mini_Project/blob/main/code/visit_korea.ipynb)
     * 원 그래프
- 7. 서울 지하철역 시간대 하차 인원 머신러닝 추측 프로그램[코드](https://github.com/likemilktea/Mini_Project/tree/main/code/Flask_Subway/flask_app.py)/[코드2](https://github.com/likemilktea/Mini_Project/tree/main/code/Flask_Subway/model_rf.py)
+ 7. 서울 지하철역 시간대 하차 인원 머신러닝 추측 프로그램 [코드](https://github.com/likemilktea/Mini_Project/tree/main/code/Flask_Subway/flask_app.py) / [코드2](https://github.com/likemilktea/Mini_Project/tree/main/code/Flask_Subway/model_rf.py)
     * Flask 웹 구동

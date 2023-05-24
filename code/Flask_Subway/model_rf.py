@@ -16,12 +16,13 @@ subway_changed_line['호선명'] = subway_changed_line['호선명'].map({'1호�
 # 학습 모델
 subway_drop = subway_changed_line.drop("07시-08시 하차인원", axis=1)
 subway_drop = subway_drop.drop("작업일자", axis=1)
-# 테스트 모델
-subway_down = subway_changed_line['07시-08시 하차인원']
 subway_drop = subway_drop.set_index("지하철역")
 columns=['사용월', '호선명','07시-08시 승차인원']
 subway_drop=subway_drop[columns]
 print(subway_drop)
+
+# 테스트 모델
+subway_down = subway_changed_line['07시-08시 하차인원']
 
 # 데이터 나누기
 X_train,X_test,y_train,y_test=train_test_split(subway_drop, subway_down, test_size=0.25, random_state=42)
@@ -30,10 +31,10 @@ X_train,X_test,y_train,y_test=train_test_split(subway_drop, subway_down, test_si
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-
 pred=model.predict(X_test)
 r2 = r2_score(y_test, pred)
 print('R2 score :', r2)
 
+#데이터 저장
 pickle.dump(model, open('subway_rf.pkl', 'wb'))
 

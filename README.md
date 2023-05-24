@@ -13,5 +13,5 @@
     * selenium
  6. 한국 방문객 데이터셋 분석[코드](https://github.com/likemilktea/Mini_Project/blob/main/code/visit_korea.ipynb)
     * 원 그래프
- 7. 서울 지하철역 시간대 하차 인원 머신러닝 추측 프로그램[코드](https://github.com/likemilktea/Mini_Project/tree/main/code/Flask_Subway/flask_app.py)[코드2](https://github.com/likemilktea/Mini_Project/tree/main/code/Flask_Subway/model.py)
+ 7. 서울 지하철역 시간대 하차 인원 머신러닝 추측 프로그램[코드](https://github.com/likemilktea/Mini_Project/tree/main/code/Flask_Subway/flask_app.py)/[코드2](https://github.com/likemilktea/Mini_Project/tree/main/code/Flask_Subway/model_rf.py)
     * Flask 웹 구동
